@@ -1,0 +1,493 @@
+/* DEFAULTS */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+input{
+	outline:none;
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none !important;
+}
+button{
+	outline: none;
+}
+
+/* DEFAULTS END */
+
+
+
+
+/*  HEADER AND NAVBAR */
+
+.conthead{
+	padding:0;
+	
+}
+
+
+.head{
+	width:100%;
+	line-height: 50px;
+	border-bottom:1px solid #EEEEEE;
+	background-color: #FAFAFA;
+	
+}
+.righthead{
+	text-align:right;
+}
+.lefthead{
+	text-align: left;
+	padding-left:50px;
+}
+.lefthead > a{
+	width:50px;
+	height:50px;
+	padding:15px 15px;
+	border-left:1px solid #EEEEEE;
+	cursor:pointer;
+}
+.lefthead >i {
+}
+
+.lefthead > a:last-child{
+	border-right:1px solid #EEEEEE;
+}
+
+.righthead > a{
+	margin-left:50px;
+}
+.navbars{
+	position:fixed;
+	font-size:14px;
+	top:51px;
+	left:0;
+	height:120px;
+	width: 100%;
+	background-color:white;
+	margin:0px;
+	border-bottom:1px solid #EEEEEE;
+	z-index:5;
+}
+.navbars > .col-5{
+	padding-left:50px;
+}
+.navbars > .col-5 >img{
+	margin-top:10px;
+	width:300px;
+	height:100px;
+	object-fit:cover;
+}
+.tgl{
+	position:fixed;
+	top:0;
+	left:0;
+}
+.col-1{
+	padding:0;
+	line-height: 120px;
+	color:black;
+	text-decoration: none !important;
+	cursor: pointer;
+	color:black;
+}
+ul{
+	border:1px solid #EEEEEE;
+	display: none;
+	width: 160px;
+	background-color:white;
+	
+}
+.col-1 > a{
+	color:red;
+}
+.col-1:hover{
+	border-bottom:solid 2px;
+}
+
+.col-1:hover ul{
+	display:block;
+}
+.col-1 > a{
+	color:black;
+}
+li  > a{
+	color:black;
+}
+li{
+	height:50px;
+	line-height:50px;
+	padding-left:5px;
+	border-bottom:1px solid #EEEEEE;
+}
+
+/*   HEADER AND NAVBAR ENDS HERE */
+
+
+
+
+
+/*    HEADER AND NAVBAR HOVERS */
+
+#fb:hover{
+	background-color:#435F9C;
+	color:white;
+}
+#twit:hover{
+	background-color:#1DA1F2;
+	color:white;
+}
+#drib:hover{
+	background-color:#FF00AE;
+	color:white;
+}
+#linked:hover{
+	background-color:#006EAE;
+	color:white;
+}
+#rss:hover{
+	background-color:orange;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    HEADER AND NAVBAR HOVERS END HERE  */
+
+
+
+/*  SLIDER */
+
+
+.slider{
+	height:700px;
+}
+.carousel-control-prev{
+	margin-top:150px;
+}
+.carousel-control-next{
+	margin-top:150px;
+}
+.d-block{
+	height: 700px;
+}
+
+/*    SLIDER END */
+
+
+
+
+
+/*       CARDS START HERE */
+
+.cards{
+	margin-top:200px;
+	text-align: center;
+}
+.ico{
+	top:0%;
+	left:50%;
+	transform:translate(-50% , -50%);
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	color:white;
+	line-height:80px;
+	text-align:center;
+	position: absolute;
+	z-index:1;
+	font-size:24px;
+}
+.cartMain{
+	padding:0 25px;
+	height: 450px;
+	border:1px solid #eeeeee;
+	position: relative;
+}
+
+.cartMain > h4{
+	margin-top:120px;
+}
+.cartMain > p{
+	margin-top:35px;
+}
+
+/*  CARDS END HERE */
+
+
+
+
+/*  GALAXY APP SERVICES START HERE */
+
+	.gAPP{
+		height:500px;
+		position: relative;
+		margin-top:200px;
+		color:white;
+	}
+
+
+	.mobilepic{
+		position:absolute;
+		left:12%;
+		top:-20%;
+	}
+
+	.gAPP > button{
+		border:none;
+	}
+
+	#btn {
+		border:1px solid white;
+		padding:10px 25px !important;
+		color:#59AB02;
+		background-color:white;
+		cursor:pointer;
+	}
+	.mobiletxt > p , button{
+		margin-top:40px;
+	}
+	.mobiletxt{
+		margin-top:30px;
+	}
+
+
+/* GALAXY APP SERVICES END HERE */
+
+
+
+
+
+
+/* GALLERY STARTS HERE */
+
+#gal{
+	margin-top:200px;
+}
+.ghead > .col-6{
+	text-align: center;
+}
+.ghead{
+	margin-bottom:50px;
+}
+
+.galery > .col-6{
+	overflow:hidden;
+	height:500px;
+	padding:0;
+}
+.pic > img{
+	height:100%;
+	width:100%;
+	object-fit:cover;
+	position: relative;
+}
+.pic{
+	height:500px;
+	transition:1s;
+}
+.layout{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 500px;
+	width: inherit;
+	background-color:rgba(0,0,0,0.5);
+	opacity:0;
+	transition: opacity 1s;
+
+}
+.txt{
+	height:420px;
+	color:white;
+}
+.lmenu{
+	height:80px;
+	color:white;
+	margin:0;
+	line-height:80px;
+}
+.txt > p{
+	margin-top:290px;
+	text-align:center;
+}
+.picID{
+	font-size:24px;
+}
+.picICON{
+	text-align:right;
+}
+.picICON > a{
+	margin-right:30px;
+	font-size:30px;
+	cursor:pointer;
+}
+.galery > .col-6:hover .layout{
+	opacity: 1;
+	
+}
+.galery > .col-6:hover .pic{
+	transform: scale(1.3);
+}
+
+/*   GALERY ENDS HERE   */
+
+
+/* SETTINGS AND SETTING MENU START */
+
+
+.setting-menu{
+	position:fixed;
+	top:170px;
+	left:-200px;
+	width:200px;
+	height:400;
+	background-color:white;
+}
+.setting{
+	line-height:50px;
+	text-align:center;
+	position:fixed;
+	top:170px;
+	left:0px;
+	width:50px;
+	height: 50px;
+	background-color:#555555;
+	color:white;
+	cursor: pointer;
+}
+.classLeft{
+	position:fixed;
+	left:0px;
+}
+.classRight{
+	position:fixed;
+	left:200px;
+}
+.settingbanner{
+	height:50px;
+	background-color:#555555;
+	color:white;
+}
+.settingbanner > h5{
+	line-height:50px;
+}
+.settingmain{
+	height:350px;
+	background-color: white;
+	border:1px solid #eeeeee;
+}
+.settingmain > h6 {
+	margin-top:10px;
+	margin-left:10px;
+	color:#555555;
+}
+.firstrow > div{
+	margin-left:10px;
+	cursor:pointer;
+}
+.secondrow >div{
+	margin-left:10px;
+	cursor:pointer;
+}
+.secondrow{
+	margin-top:20px;
+}
+#green{
+	width:30px;
+	height:30px;
+	background-color:#59AB02;
+}
+#purple{
+	width:30px;
+	height:30px;
+	background-color:#800080;
+}
+#orange{
+	width:30px;
+	height:30px;
+	background-color:#FA6900;
+}
+#gray{
+	width:30px;
+	height:30px;
+	background-color:#555555;
+}
+#magenta{
+	width:30px;
+	height:30px;
+	background-color:#EB038D;
+}
+#red{
+	width:30px;
+	height:30px;
+	background-color:#9E0B0F;
+}
+#blue{
+	width:30px;
+	height:30px;
+	background-color:#2EAEF0;
+}
+#brown{
+	width:30px;
+	height:30px;
+	background-color:#C69C6D;
+}
+#golden{
+	width:30px;
+	height:30px;
+	background-color:#DAA520;
+}
+#teal{
+	width:30px;
+	height:30px;
+	background-color:#008080;
+}
+.settingmain > button{
+	border:none;
+	cursor:pointer;
+}
+
+#btnwide{
+	border:1px solid #555555;
+	padding:10px 15px !important;
+	color:white;
+	background-color:#555555;
+	margin-left:5px;
+	margin-top:10px;
+}
+#btnbox{
+	border:1px solid #555555;
+	padding:10px 15px !important;
+	color:white;
+	background-color:#555555;
+	margin-left:5px;
+	margin-top:10px;
+}
+
+/* SETTINGS AND STTING MENU END */
+
+
+/* COLOR CLASS */
+.color{
+	background-color:#59AB02;
+}
+#btn{
+	color:#59AB02;
+}
+.txtcolor{
+	color:#59AB02;
+}
